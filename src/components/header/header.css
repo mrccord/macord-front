@@ -21,20 +21,3 @@
     display: flex;
     justify-content: flex-end;
 }
-
-.icon-btn {
-    display: flex;
-    background-color: #363743;
-    justify-content: center;
-    align-items: center;
-    height: 3rem;
-    width: 3rem;
-    border-radius: 20%;
-    margin: 0.5em;
-}
-
-.icon-btn:hover {
-    background: linear-gradient(rgb(23, 234, 217), rgb(96, 120, 234)) ;
-}
-
-/* linear-gradient(rgb(23, 234, 217), rgb(96, 120, 234)) */

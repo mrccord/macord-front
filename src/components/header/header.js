@@ -4,6 +4,7 @@ import Brightness2OutlinedIcon from '@material-ui/icons/Brightness2Outlined'
 import LanguageOutlinedIcon from '@material-ui/icons/LanguageOutlined'
 import MenuOutlinedIcon from '@material-ui/icons/MenuOutlined'
 import Logo from './../../assets/images/logo.png'
+import ActionButton from '../action-button/action-button'
 
 const Header = () => (
     <header className="header">
@@ -11,15 +12,15 @@ const Header = () => (
             <img src={Logo} alt="Macord developer"/>
         </div>
         <div className="actions">
-            <div className="icon-btn">
+            <ActionButton>
                 <LanguageOutlinedIcon />
-            </div>
-            <div className="icon-btn">
+            </ActionButton>
+            <ActionButton>
                 <Brightness2OutlinedIcon />
-            </div>
-            <div className="icon-btn">
+            </ActionButton>
+            <ActionButton>
                 <MenuOutlinedIcon />
-            </div>
+            </ActionButton>
         </div>
     </header>
 )

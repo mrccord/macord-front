@@ -1,0 +1,10 @@
+.nav-button {
+    display: flex;
+    background: #363743;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 20%;
+    margin: 0.5em;
+}
