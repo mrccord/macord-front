@@ -1,5 +1,5 @@
 .header {
-    border-bottom: 1px solid #363743;
+    border-bottom: 1px solid var(--background-gray);
     padding: 1em;
     display: flex;
     justify-content: space-between;

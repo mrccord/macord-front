@@ -1,10 +1,17 @@
 .action-button {
     display: flex;
-    background: #363743;
+    background: var(--background-gray);
     justify-content: center;
     align-items: center;
     height: 3rem;
     width: 3rem;
     border-radius: 20%;
     margin: 0.5em;
+    transition: all .3s ease-out;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background: var(--blue-color);
+    box-shadow: 4px 4px var(--background-gray);
 }

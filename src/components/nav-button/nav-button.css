@@ -1,6 +1,6 @@
 .nav-button {
     display: flex;
-    background: #363743;
+    background: var(--background-gray);
     justify-content: center;
     align-items: center;
     height: 3rem;

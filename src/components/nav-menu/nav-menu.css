@@ -1,5 +1,5 @@
 .nav-menu {
-    border-right: 1px solid #363743;
+    border-right: 1px solid var(--background-gray);
     flex: 0 0 6em;
     order: -1;
     display: flex;
