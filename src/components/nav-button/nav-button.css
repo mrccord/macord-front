@@ -7,6 +7,7 @@
     width: 3rem;
     border-radius: 20%;
     margin: 0.5em;
+    cursor: pointer;
 }
 
 .nav-button::after {
@@ -24,12 +25,6 @@
 
 .nav-button:hover:after {
     content: "";
-    position: absolute;
-    display: block;
-    height: 2.6rem;
-    width: .7rem;
-    background: var(--blue-color);
-    filter: blur(8px);
     opacity: 70%;
     transform: translateX(-170%);
 }
