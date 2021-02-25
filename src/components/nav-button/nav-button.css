@@ -8,3 +8,44 @@
     border-radius: 20%;
     margin: 0.5em;
 }
+
+.nav-button::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 2.6rem;
+    width: .7rem;
+    background: var(--blue-color);
+    opacity: -1;
+    transform: translateX(200%);
+    filter: blur(8px);
+    transition: all .5s ease-in;
+}
+
+.nav-button:hover:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 2.6rem;
+    width: .7rem;
+    background: var(--blue-color);
+    filter: blur(8px);
+    opacity: 70%;
+    transform: translateX(-170%);
+}
+
+.nav-button::before {
+    content: "";
+    position: absolute;
+    height: 2rem;
+    width: .2rem;
+    background: var(--blue-color);
+    opacity: -1;
+    border-radius: 50% 0 0 50%;
+    transform: translateX(-800%);
+    transition: all .8s  ease-in;
+}
+
+.nav-button:hover:before {
+    opacity: 50%;
+}
