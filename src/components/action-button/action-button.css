@@ -13,5 +13,4 @@
 
 .action-button:hover {
     background: var(--blue-color);
-    box-shadow: 4px 4px var(--background-gray);
 }

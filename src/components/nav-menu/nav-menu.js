@@ -9,19 +9,19 @@ import NavButton from '../nav-button/nav-button';
 const actionButtons = [
     {
         id: 1,
-        path: "/about",
+        path: "/profile",
         icon: <PermIdentityOutlinedIcon />
     }, {
         id: 2,
-        path: "/about",
+        path: "/skills",
         icon: <CodeOutlinedIcon />
     }, {
         id: 3,
-        path: "/about",
+        path: "/projects",
         icon: <DeveloperBoardOutlinedIcon />
     }, {
         id: 4,
-        path: "/about",
+        path: "/contact",
         icon: <AccountBoxOutlinedIcon />
     }
 ]
@@ -30,7 +30,7 @@ const NavMenu = () => (
     <nav className="nav-menu">
         {
             actionButtons.map(button => (
-                <NavButton key={button.id}>
+                <NavButton key={button.id} path={button.path}>
                     {button.icon}
                 </NavButton>
             ))

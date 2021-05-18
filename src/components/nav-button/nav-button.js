@@ -1,10 +1,11 @@
 import React from 'react'
 import './nav-button.css'
+import { Link } from 'react-router-dom'
 
-const NavButton = ({ children }) => (
-    <div className="nav-button">
+const NavButton = ({ path, children }) => (
+    <Link to={path} className="nav-button">
         {children}
-    </div>
+    </Link>
 )
 
 export default NavButton
